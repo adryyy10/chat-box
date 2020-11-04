@@ -21,7 +21,6 @@ class Conversation
         $response = new PostConnection($url, $headers, '');
         $response = $response->post();
 
-
         return array(
             "response" => $response,
             "apiKey" => $urlApi['apiKey'],
